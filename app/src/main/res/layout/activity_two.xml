@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    tools:context=".TwoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_color"
+        android:layout_margin="@dimen/margin"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:backgroundTint="@color/white"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white"
+        android:hint="@string/edit_text"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edit_text3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:backgroundTint="@color/white"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white"
+        android:hint="@string/edit_text2"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        />
+        <EditText
+            android:id="@+id/edit_text4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:hint="@string/edit_text3"
+            android:textColorHint="@color/white"
+            android:inputType="phone"
+            />
+
+        <EditText
+            android:id="@+id/edit_text5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:hint="@string/edit_text4"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edit_text6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:hint="@string/edit_text5"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            />
+
+        <EditText
+            android:id="@+id/edit_text7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:hint="@string/edit_text6"
+            android:textColorHint="@color/white"
+            android:inputType="textEmailAddress"
+            />
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Calender"
+            android:dateTextAppearance="@style/CalenderText"
+            android:weekDayTextAppearance="@style/CalenderViewWeekText" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
